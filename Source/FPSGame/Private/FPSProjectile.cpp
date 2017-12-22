@@ -39,6 +39,11 @@ void AFPSProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPr
 	{
 		OtherComp->AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation());
 
-		Destroy();
+		
 	}
+
+	// instigator is default in pawn
+	MakeNoise(1.0f, Instigator);
+
+	Destroy();
 }
