@@ -51,9 +51,6 @@ SourceArt/**/*.tga
 # Binary Files
 Binaries/*
 
-# Media
-Media/*
-
 # Builds
 Build/*
 
