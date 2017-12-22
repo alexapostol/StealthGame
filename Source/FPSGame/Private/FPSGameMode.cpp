@@ -44,7 +44,7 @@ void AFPSGameMode::CompleteMission(APawn* InstigatotPawn)
 		}
 	}
 
-	OnMissionCompleted(InstigatotPawn);
+	OnMissionCompleted(InstigatotPawn, true);
 
 
 }
